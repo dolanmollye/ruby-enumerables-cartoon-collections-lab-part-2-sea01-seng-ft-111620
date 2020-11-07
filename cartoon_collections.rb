@@ -5,7 +5,6 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  index[0]
   planeteer_calls.map {|element|
     element[0].upcase}
   end
