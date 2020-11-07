@@ -7,7 +7,6 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map {|element|
     element[0].upcase}
-  end
 end
 
 def long_planeteer_calls(planeteer_calls)
